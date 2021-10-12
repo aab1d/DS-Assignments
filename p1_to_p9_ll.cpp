@@ -331,7 +331,7 @@ void delete_all_val(){
         if(tmp->get_val() == data) {
             flag = true;
         }
-        if(tmp->get_val() != data){
+        else{
             prev = tmp;
         }
         prev->set_next(tmp->get_next());
