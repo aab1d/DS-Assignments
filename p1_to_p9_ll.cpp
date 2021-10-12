@@ -122,7 +122,7 @@ void view_min_max_val(){
                 min = t->get_val();
             }
             
-            if(t->get_val() > min){
+            if(t->get_val() > max){
                 max = t->get_val();
             }
             
@@ -135,7 +135,7 @@ void view_min_max_val(){
 
 //This function checks whether a number is prime or not.
 bool isprime(int n){
-    if(n < 2 )
+    if(n < 2)
         return false;
     for(int i = 2; i <= sqrt(n); i++)
         if(n % i == 0)
