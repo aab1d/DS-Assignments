@@ -215,7 +215,7 @@ void view_prime(){
     while(t != NULL){
         if(isprime(t->get_val())){
             cout<<t->get_val()<<" ";
-    }
+        }
     t = t->get_next();
     }
     cout<<endl;
