@@ -54,7 +54,18 @@ public:
 int main()
 {
     LinkedList l;
-    l.create();
-    l.view();
+    int ch;
+    while(1){
+        cout<<"Enter an option :\n1.Create List.\t2.View List.\n";
+        cout<<"Enter anything else to exit.\n";
+        cin>>ch;
+        if(ch == 1){
+            l.create();
+        }
+        else if(ch == 2){
+            l.view();
+        }
+        else break;
+    }
     return 0;
 }
