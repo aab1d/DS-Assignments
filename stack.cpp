@@ -43,7 +43,7 @@ int main()
     {
         int ch;
         cout << "Enter a choice:\n";
-        cout << "1. Push\n2. Pop\n3. Peep\n4.  Exit\n";
+        cout << "1. Push\n2. Pop\n3. Peep\n4. Exit\n";
         cin >> ch;
         if (ch == 1)
         {
